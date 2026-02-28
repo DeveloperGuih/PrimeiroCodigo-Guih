@@ -14,3 +14,27 @@ img {
     width: 150px;
     height: auto;
 }
+.menu {
+    background-color: #333;
+    padding: 15px;
+    text-align: center; /* Isso centraliza os botões lá dentro */
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* Estilo para transformar os links em botões bonitos */
+.btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #555;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #df0c0c; /* Cor que você já usa no H1 */
+}
